@@ -1,0 +1,182 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+ 
+local w = library:CreateWindow("MagHub") 
+ 
+local a = w:CreateFolder("Latest Update")
+ 
+local b = w:CreateFolder("King Legacy") 
+ 
+local c = w:CreateFolder("Football Fusion")
+ 
+local e = w:CreateFolder("Big Paintball")
+ 
+local f = w:CreateFolder("Shindo Life")
+ 
+local g = w:CreateFolder("RoCitizens")
+
+local h = w:CreateFolder("DaHood")
+
+local I = w:CreateFolder("Clicker Simulator")
+
+ 
+--Divider
+a:Label("March, 9, 2022",{
+    TextSize  = 25;
+    TextColor = Color3.fromRGB(255,255,255);
+    BgColor   = Color3.fromRGB(69,69,69);	
+}) 
+--Divider
+b:Label("Click to Execute",{
+    TextSize  = 25;
+    TextColor = Color3.fromRGB(255,255,255); 
+    BgColor   = Color3.fromRGB(69,69,69); 
+ 
+}) 
+ 
+b:Button("Strike Hub",function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))() 
+end)
+ 
+b:Button("Mag Legacy",function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
+end)
+--Football Fusion
+c:Label("Click to Execute",{
+    TextSize = 25;  
+     TextColor = Color3.fromRGB(255,255,255);
+    BgColor = Color3.fromRGB(69,69,69); 
+}) 
+ 
+c:Button("Aki Hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1x2x3/Aki/main/loadstring.lua"))();
+end)
+ 
+--BigPaintBall
+e:Label("Click to Execute",{
+    TextSize  = 25;  
+    TextColor = Color3.fromRGB(255,255,255);
+    BgColor   = Color3.fromRGB(69,69,69); 
+}) 
+e:Button("Dark Hub",function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+ 
+e:Button("WetCheezit Hub",function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/Big-Paintball/KillAll.lua"))()
+end) 
+ 
+ 
+--Shindo Life
+ 
+f:Label("Click to Execute",{
+        TextSize = 25;  
+        TextColor = Color3.fromRGB(255,255,255);
+        BgColor   = Color3.fromRGB(69,69,69); 
+}) 
+f:Button("Spy Hub",function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/ShindoLife", true))()
+end)
+ 
+f:Button("Snxw Hub",function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Web/main/scripts/SnxwHub.txt"))()
+end)
+ 
+f:Button("VG Hub",function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+ 
+--RoCitizens
+g:Label("Click to Execute",{
+        TextSize = 25;  
+        TextColor = Color3.fromRGB(255,255,255);
+        BgColor   = Color3.fromRGB(69,69,69); 
+}) 
+ 
+g:Button("AutoFarm",function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/MPGymcCf"))()
+end)
+
+g:Button("Variety Hub",function()
+ 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TxlerR8/VARIETY-HUB/main/Variety.lua"))()
+end)
+g:Button("Auto Bonus",function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/wawJbPU9"))()
+end)
+
+--Da Hood
+h:Button("DimagX",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+--Click Simulator
+I:Label("Click to Execute",{
+        TextSize = 25;  
+        TextColor = Color3.fromRGB(255,255,255);
+        BgColor   = Color3.fromRGB(69,69,69); 
+}) 
+I:Button("Future Script",function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Clicker-Simulator-or-Future-Scripts_855"))()
+end)
+
+I:Button("Clicker V3",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/tbitw2549/Clicker-Simulator-V2/main/Main"))()
+end)
+
+--MagHub V2 Window
+local w = library:CreateWindow("MagHub V2")
+local j = w:CreateFolder("Arsenal")
+local k = w:CreateFolder("Dunking Simulator")
+
+--Arsenal
+
+j:Label("Click to Execute",{
+        TextSize = 25;  
+        TextColor = Color3.fromRGB(255,255,255);
+        BgColor   = Color3.fromRGB(69,69,69); 
+}) 
+
+j:Button("Bolts Hub V5",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaytojuice/Bolts-Hub/main/Script/Free_Executors", true))()
+end)
+
+j:Button("CheaterSoul",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucitrash-vCoder/1/main/newrobloxscriptsarsenal1"))()
+end)
+
+j:Button("OwlHub",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+--Dunking Simuulator
+k:Label("Click to Execute",{
+        TextSize = 25;  
+        TextColor = Color3.fromRGB(255,255,255);
+        BgColor   = Color3.fromRGB(69,69,69); 
+}) 
+
+k:Button("DunkerXS",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Run6666/dunking-simulator/main/output-ATzo.lua"))()
+end)
+
+k:Button("Roxy Rekt",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/roxyrekt/HubORScript/main/Dunking_Simulator.lua"))()
+
+end)
+
+--Settings Window
+local w = library:CreateWindow("Settings") 
+local x = w:CreateFolder("Credits")
+ 
+local z = w:CreateFolder("Setting")
+
+--Credits
+x:Button("By: Mag Scripted",function()
+    print("Mag Developments")
+end)
+ 
+--Settings 
+ 
+z:Button("Join Discord",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/LnnVBCJT"))();
+end)
+z:DestroyGui()
