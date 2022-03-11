@@ -320,11 +320,12 @@ end,
     }
 })
 
---Game 2
+
 
 --Credits
 local A = W.Label({
     Text = "Made By: Mag Developments"
+
 })
 
 --Settings
@@ -332,7 +333,7 @@ local A = W.Label({
 local A = V.Button({
      Text = "Anti-Afk"
     Callback = function()
-           loadstring(game:HttpsGet:"https://pastebin.com/raw/RrnxcZGQ"))()
+           loadstring(game:HttpsGet("https://pastebin.com/raw/RrnxcZGQ"))()
     
 end,
     Menu = {
