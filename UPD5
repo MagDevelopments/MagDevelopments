@@ -1,16 +1,13 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
-local X = Material.Load({
-    Title          = "Mag Developments",
-    Style          = 3,
-    SizeX          = 500,
-    SizeY          = 350,
-    Theme          = "Jester",
-    ColorOverrides = {
-    MainFrame      = Color3.fromRGB(235,235,235)
-    }
+local UI = Material.Load({
+     Title = "Getting Started",
+     Style = 3,
+     SizeX = 400,
+     SizeY = 100,
+     Theme = "Light"
 })
---https://magupp.wixsite.com/magup
+
 --Tabs
 local Y = X.New({
     Title = "Main"
@@ -53,7 +50,6 @@ local V = X.New({
 })
 
 --Fields
-
 
 local A = Y.Button({
     Text     = "Open MagHub",
