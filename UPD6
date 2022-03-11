@@ -54,12 +54,6 @@ local V = X.New({
 
 --Fields
 
-
-local A = Y.Label({
-    Text = "Recent Update"
-    
-})
-
 local A = Y.Button({
     Text     = "Open MagHub",
     Callback = function()
