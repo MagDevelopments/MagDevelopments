@@ -52,7 +52,7 @@ local V = X.New({
     Title = "Settings"
 })
 
---Feilds
+--Fields
 local A = Y.Button({
     Text     = "Last Updated",
    Callback = function()
@@ -68,7 +68,7 @@ local A = Y.Button({
 })
 
 local A = Y.Label({
-    Text     = "March 11th",
+    Text     = "March",
 })
 
 
