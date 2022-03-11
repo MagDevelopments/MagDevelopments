@@ -55,7 +55,7 @@ local V = X.New({
 --Fields
 
 local A = Y.Banner({
-    Text     = "V1.6", 
+    Text = "V1.6",
 })
 
 local A = Y.Button({
