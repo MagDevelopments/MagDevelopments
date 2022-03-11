@@ -70,7 +70,7 @@ local A = Y.Button({
 })
 
 local A = Y.Label({
-    Text     = "March, 11, 2022",
+    Text     = "March 11th",
 })
 
 local A = Y.Button({
