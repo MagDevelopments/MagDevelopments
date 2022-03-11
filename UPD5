@@ -55,9 +55,9 @@ local V = X.New({
 --Fields
 local A = Y.Button({
     Text     = "Last Updated",
-   Callback = function()
         print("March, 11, 2022")
-    end,
+  
+  end,
     Menu = {
         Information = function(self)
             X.Banner({
