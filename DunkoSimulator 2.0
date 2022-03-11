@@ -4,10 +4,6 @@ getgenv().Discord = game:service("HttpService"):JSONDecode(game:HttpGet("https:/
 getgenv().Youtube = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/CreditsPage4Hubs/main/JSON")).Youtube
 getgenv().Pastebin = game:service("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/CreditsPage4Hubs/main/JSON")).Pastebin
 --Wait For No Bugs
-repeat wait() until getgenv().Subscribers ~= nil
-repeat wait() until getgenv().TotalMembers ~= nil
-repeat wait() until getgenv().TotalPastebinViews ~= nil
-repeat wait() until getgenv().Username ~= nil
 repeat wait() until getgenv().Discord ~= nil
 repeat wait() until getgenv().Youtube ~= nil
 repeat wait() until getgenv().Pastebin ~= nil
