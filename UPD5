@@ -53,24 +53,6 @@ local V = X.New({
 })
 
 --Fields
-local A = Y.Button({
-    Text     = "Last Updated",
-        print("March, 11, 2022")
-  
-  end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Displays Most Recent Update"
-            })
-        end
-    }
-})
-
-local A = Y.Label({
-    Text     = "March",
-})
-
 
 local A = Y.Button({
     Text     = "Open MagHub",
