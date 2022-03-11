@@ -54,9 +54,6 @@ local V = X.New({
 
 --Fields
 
-local A = Y.Banner({
-    Text = "."
-})
 
 local A = Y.Label({
     Text = "Recent Update"
@@ -328,4 +325,32 @@ end,
         end
     }
 })
+
+--Game 2
+
+--Credits
+local A = W.Label({
+    Text = "Made By: Mag Developments"
+})
+
+--Settings
+
+local A = V.Button({
+     Text = "Anti-Afk"
+    Callback = function()
+             
+    
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Bypasses the 20 Mins afk rule(Click to Execute)"
+            })
+        end
+    }
+})
+
+})
+
+
 
