@@ -44,11 +44,11 @@ local c =  X.New({
     Title = "Dunking Simulator"
 })
 
-local W = X.New({
+local w = X.New({
     Title = "Credits"
 })
 
-local V = X.New({
+local v = X.New({
     Title = "Settings"
 })
 
@@ -322,7 +322,7 @@ end,
 
 --Credits
 
-local A = W.Label({
+local A = w.Label({
     Text = "Made By: Mag Developments"
 
 })
@@ -330,7 +330,7 @@ local A = W.Label({
 
 --Settings
 
-local A = V.Button({
+local A = v.Button({
       Text = "Anti Afk",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/RrnxcZGQ"))()
