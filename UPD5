@@ -55,9 +55,7 @@ local V = X.New({
 --Feilds
 local A = Y.Button({
     Text     = "Last Updated",
-local A = Y.Button({
-    Text     = "Open MagHub",
-    Callback = function()
+   Callback = function()
         print("March, 11, 2022")
     end,
     Menu = {
@@ -70,8 +68,9 @@ local A = Y.Button({
 })
 
 local A = Y.Label({
-    Text     = "March",
+    Text     = "March 11th",
 })
+
 
 local A = Y.Button({
     Text     = "Open MagHub",
