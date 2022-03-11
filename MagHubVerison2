@@ -1,0 +1,63 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("MagHub V2", "DarkTheme")
+
+local Tab = Window:NewTab("Main")
+
+local Section = Tab:NewSection("Credits")
+Section:NewLabel("Made By: Mag Developments")
+Section:NewButton("Open MagHub", "Opens the MainHub", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1cg3zyR3"))();
+end)
+
+local Section = Tab:NewSection("Settings")
+
+--TOGGLE
+Section:NewKeybind("Toggle UI", "Allows you to toggle UI", Enum.KeyCode.RightControl, function()
+	Library:ToggleUI()
+end)
+
+--Tab 2
+local Tab = Window:NewTab("Clicker Simulator")
+local Section = Tab:NewSection("Scripts")
+Section:NewButton("Future Scripts", "Opens the a scripthub", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Clicker-Simulator-or-Future-Scripts_855"))()
+end)
+
+Section:NewButton("Clicker V3", "Opens the a scripthub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbitw2549/Clicker-Simulator-V2/main/Main"))()
+end)
+
+local Tab = Window:NewTab("Shindo Life")
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("Spy Hub", "Opens the a scripthub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/ShindoLife", true))()
+end)
+
+Section:NewButton("Snxw Hub", "Opens the a scripthub", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Web/main/scripts/SnxwHub.txt"))()
+end)
+
+Section:NewButton("VG Hub", "Opens the a scripthub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+local Tab = Window:NewTab("Rebirth Champions X")
+local Section = Tab:NewSection("Scripts")
+
+Section:NewLabel("Key - Pastebin.com/rQxrMNXi")
+Section:NewButton("Exetreme Hub", "Opens the a scripthub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
+end)
+
+local Tab = Window:NewTab("Dunking Simulator") 
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("DunkerHub", "Opens the a scripthub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Run6666/dunking-simulator/main/output-ATzo.lua"))()
+end)
+
+Section:NewButton("Roxy Rekt", "Opens the a scripthub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/roxyrekt/HubORScript/main/Dunking_Simulator.lua"))()
+end)
