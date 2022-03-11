@@ -57,12 +57,15 @@ local V = X.New({
 loacl A = Y.Toggle({
     Text = "Update Report",
     Callback = function(value)
-        Y.Banner({
-    	Text = "Last Updated: 3/11/2022"
-})
-    end,
+        print("...")
+     end,
     Enabled = true
 })
+
+  Y.Banner({
+    	Text = "Last Updated: 3/11/2022"
+})
+   
 
 local A = Y.Button({
     Text     = "Open MagHub",
