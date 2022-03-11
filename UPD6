@@ -54,9 +54,9 @@ local V = X.New({
 
 --Fields
 
-local A = Y.Banner({
-    Text = "V1.6",
-})
+local A = Y.Label({
+    Text = "Hey"
+)}
 
 local A = Y.Button({
     Text     = "Open MagHub",
