@@ -295,7 +295,7 @@ end,
 local A = c.Button({
       Text = "DunkerHub",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Run6666/dunking-simulator/main/output-ATzo.lua"))()
 
 end,
     Menu = {
@@ -310,7 +310,7 @@ end,
 local A = c.Button({
       Text = "Roxy Rekt",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/roxyrekt/HubORScript/main/Dunking_Simulator.lua"))()
 
 end,
     Menu = {
