@@ -58,7 +58,8 @@ local A = Y.Button({
     Text     = "Open MagHub",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/1cg3zyR3"))();
-    end,
+  
+  end,
     Menu = {
         Information = function(self)
             X.Banner({
