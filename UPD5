@@ -1,3 +1,5 @@
+--key: dcf306f5bf5247b7cad8883ede194d5c
+
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local X = Material.Load({
@@ -5,15 +7,15 @@ local X = Material.Load({
     Style          = 3,
     SizeX          = 500,
     SizeY          = 350,
-    Theme          = "Light",
+    Theme          = "Jester",
     ColorOverrides = {
     MainFrame      = Color3.fromRGB(235,235,235)
     }
 })
-
+--https://magupp.wixsite.com/magup
 --Tabs
 local Y = X.New({
-    Title = "Da Hood"
+    Title = "Main"
 })
 
 local Z = X.New({
@@ -30,6 +32,18 @@ local t = X.New({
 
 local s =  X.New({
     Title = "King Legacy"
+})
+
+local a =  X.New({
+    Title = "Arsenal"
+})
+
+local b =  X.New({
+    Title = "Shindo Life"
+})
+
+local c =  X.New({
+    Title = "Dunking Simulator"
 })
 
 local W = X.New({
@@ -49,10 +63,14 @@ local A = Y.Button({
     Menu = {
         Information = function(self)
             X.Banner({
-            Text = "This function opens our All-In One Script Hub"
+            Text = "This function opens our All-In One Script Hub (Click to Execute)"
             })
         end
     }
+})
+
+local A = Y.Label({
+    Text     = "Multi Game Script",
 })
 
 --Football Fusion
@@ -65,37 +83,242 @@ local A = Z.Button({
     Menu = {
         Information = function(self)
             X.Banner({
-            Text = "This Is a football fusion script"
+            Text = "Click to Execute"
             })
         end
     }
 })
 
 --Clicker Sim
-local A = U.Button({
-      Text = "Future Script"
+local A = u.Button({
+      Text = "Future Scripts",
     Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Clicker-Simulator-or-Future-Scripts_855"))()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Clicker-Simulator-or-Future-Scripts_855"))()
 
     end,
     Menu = {
         Information = function(self)
             X.Banner({
-            Text = "This Is a Clicker Simulator script"
+            Text = "Click to Execute"
             })
         end
     }
 })
 
-local A = U.Button({
+local A = u.Button({
       Text = "Clicker V3",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbitw2549/Clicker-Simulator-V2/main/Main"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbitw2549/Clicker-Simulator-V2/main/Main"))()
     end,
     Menu = {
         Information = function(self)
             X.Banner({
-            Text = "This Is a Clicker Simulator script"
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+local A = t.Button({
+      Text = "Variety Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TxlerR8/VARIETY-HUB/main/Variety.lua"))()
+    
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+--RoCitizens
+local A = t.Button({
+      Text = "AutoBonus",
+    Callback = function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/wawJbPU9"))()       
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+  
+  
+local A = t.Button({
+      Text = "AutoFarm",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/MPGymcCf"))()
+    
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+--King Legacy
+local A = s.Button({
+      Text = "Strike Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+    
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+local A = s.Button({
+      Text = "Mag Legacy",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+--Arsenal  
+local A = a.Button({
+      Text = "MagDevelopments Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/MagDevelopments/main/Arsenal%20Cheat"))()
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+local A = a.Button({
+      Text = "Bolt Hub V5",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaytojuice/Bolts-Hub/main/Script/Free_Executors", true))()
+
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+  
+local A = a.Button({
+      Text = "Owl Hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+--Shindo Life  
+
+local A = b.Button({
+      Text = "Spy Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/ShindoLife", true))()
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+local A = b.Button({
+      Text = "Snxw Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Web/main/scripts/SnxwHub.txt"))()
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+local A = b.Button({
+      Text = "VG Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+
+--Dunking Simulator
+
+local A = c.Button({
+      Text = "DunkerHub",
+    Callback = function()
+        
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+local A = c.Button({
+      Text = "Roxy Rekt",
+    Callback = function()
+        
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
             })
         end
     }
