@@ -91,7 +91,6 @@ local A = U.Button({
       Text = "Clicker V3",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tbitw2549/Clicker-Simulator-V2/main/Main"))()
-
     end,
     Menu = {
         Information = function(self)
