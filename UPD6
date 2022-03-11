@@ -322,11 +322,7 @@ end,
 
 
 
---Credits
-local A = W.Label({
-    Text = "Made By: Mag Developments"
 
-})
 
 --Settings
 
