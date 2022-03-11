@@ -55,6 +55,7 @@ local A = Y.Button({
     }
 })
 
+--Football Fusion
 local A = Z.Button({
       Text = "Aki Hub",
     Callback = function()
@@ -70,15 +71,34 @@ local A = Z.Button({
     }
 })
 
-local A = Z.Button({
-      Text = "Aki Hub",
+--Clicker Sim
+local A = u.Button({
+      Text = "Future Script",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/1x2x3/Aki/main/loadstring.lua"))();
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Clicker-Simulator-or-Future-Scripts_855"))()
 
-             })
+    end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "This Is a football fusion script"
+            })
         end
     }
 })
 
+local A = u.Button({
+      Text = "Clicker"
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbitw2549/Clicker-Simulator-V2/main/Main"))()
 
+    end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "This Is a football fusion script"
+            })
+        end
+    }
+})
 
