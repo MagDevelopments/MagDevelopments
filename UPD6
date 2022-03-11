@@ -332,7 +332,7 @@ local A = W.Label({
 local A = V.Button({
      Text = "Anti-Afk"
     Callback = function()
-             
+           loadstring(game:HttpsGet:"https://pastebin.com/raw/RrnxcZGQ"))()
     
 end,
     Menu = {
@@ -344,7 +344,6 @@ end,
     }
 })
 
-})
 
 
 
