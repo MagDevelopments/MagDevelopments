@@ -53,6 +53,10 @@ local V = X.New({
 })
 
 --Feilds
+local A = Y.Label{(
+    Text = "Last Updated: March, 11, 2022",
+})
+
 local A = Y.Button({
     Text     = "Open MagHub",
     Callback = function()
