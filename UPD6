@@ -323,24 +323,3 @@ end,
 
 
 
-
---Settings
-
-local A = V.Button({
-     Text = "Anti-Afk"
-    Callback = function()
-           loadstring(game:HttpsGet("https://pastebin.com/raw/RrnxcZGQ"))()
-    
-end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Bypasses the 20 Mins afk rule(Click to Execute)"
-            })
-        end
-    }
-})
-
-
-
-
