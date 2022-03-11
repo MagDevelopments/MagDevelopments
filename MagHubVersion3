@@ -72,7 +72,7 @@ local A = Z.Button({
 })
 
 --Clicker Sim
-local A = u.Button({
+local A = U.Button({
       Text = "Future Script"
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Clicker-Simulator-or-Future-Scripts_855"))()
@@ -87,8 +87,8 @@ local A = u.Button({
     }
 })
 
-local A = u.Button({
-      Text = "Clicker"
+local A = U.Button({
+      Text = "Clicker V3",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tbitw2549/Clicker-Simulator-V2/main/Main"))()
 
