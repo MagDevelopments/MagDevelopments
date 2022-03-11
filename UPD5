@@ -1,5 +1,3 @@
---key: dcf306f5bf5247b7cad8883ede194d5c
-
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local X = Material.Load({
