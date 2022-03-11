@@ -73,7 +73,7 @@ local A = Z.Button({
 
 --Clicker Sim
 local A = u.Button({
-      Text = "Future Script",
+      Text = "Future Script"
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Clicker-Simulator-or-Future-Scripts_855"))()
 
@@ -81,7 +81,7 @@ local A = u.Button({
     Menu = {
         Information = function(self)
             X.Banner({
-            Text = "This Is a football fusion script"
+            Text = "This Is a Clicker Simulator script"
             })
         end
     }
@@ -96,7 +96,7 @@ local A = u.Button({
     Menu = {
         Information = function(self)
             X.Banner({
-            Text = "This Is a football fusion script"
+            Text = "This Is a Clicker Simulator script"
             })
         end
     }
