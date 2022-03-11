@@ -70,4 +70,15 @@ local A = Z.Button({
     }
 })
 
+local A = Z.Button({
+      Text = "Aki Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1x2x3/Aki/main/loadstring.lua"))();
+
+             })
+        end
+    }
+})
+
+
 
