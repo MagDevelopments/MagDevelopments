@@ -53,6 +53,25 @@ local V = X.New({
 })
 
 --Feilds
+local A = Y.Button({
+    Text     = "Last Updated",
+local A = Y.Button({
+    Text     = "Open MagHub",
+    Callback = function()
+        print("March, 11, 2022")
+    end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Displays Most Recent Update"
+            })
+        end
+    }
+})
+
+local A = Y.Label({
+    Text     = "March",
+})
 
 local A = Y.Button({
     Text     = "Open MagHub",
@@ -243,7 +262,7 @@ end,
 
 local A = b.Button({
       Text = "Spy Hub",
-    Callback = function()
+     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/ShindoLife", true))()
 
 end,
