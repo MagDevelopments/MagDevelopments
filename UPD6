@@ -331,9 +331,10 @@ local A = W.Label({
 --Settings
 
 local A = V.Button({
-     Text = "Anti-Afk"
+      Text = "Anti Afk",
     Callback = function()
-           loadstring(game:HttpsGet("https://pastebin.com/raw/RrnxcZGQ"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/RrnxcZGQ"))()
+
 end,
     Menu = {
         Information = function(self)
@@ -343,7 +344,6 @@ end,
         end
     }
 })
-
 
 
 
