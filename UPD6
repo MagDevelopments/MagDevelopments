@@ -54,6 +54,10 @@ local V = X.New({
 
 --Fields
 
+local A = Y.Banner({
+    Text = "."
+})
+
 local A = Y.Label({
     Text = "Recent Update"
     
