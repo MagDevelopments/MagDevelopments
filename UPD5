@@ -53,19 +53,7 @@ local V = X.New({
 })
 
 --Fields
-local A = Y.Button({
-	Text = "Last Updated",
-	Callback = function()
-		print("hello")
-	end,
-	Menu = {
-		Information = function(self)
-			X.Banner({
-				Text = "Displays when UI was last updated"
-			})
-		end
-	}
-})
+
 
 local A = Y.Button({
     Text     = "Open MagHub",
