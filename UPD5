@@ -81,14 +81,10 @@ local A = Y.Button({
     Menu = {
         Information = function(self)
             X.Banner({
-            Text = "This function opens our All-In One Script Hub (Click to Execute)"
+            Text = "Multi Game Scrip (Click to Execute)"
             })
         end
     }
-})
-
-local A = Y.Label({
-    Text     = "Multi Game Script",
 })
 
 --Football Fusion
