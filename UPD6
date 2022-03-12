@@ -320,19 +320,6 @@ end,
     }
 })
 
-local A = c.Button({
-    Text = "Mag Scripted"
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/AUutTEWu"))()
-end,
-     Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
 
 --Credits
 
