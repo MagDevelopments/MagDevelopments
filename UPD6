@@ -10,7 +10,7 @@ local X = Material.Load({
     MainFrame      = Color3.fromRGB(235,235,235)
     }
 })
---https://magupp.wixsite.com/magup
+
 --Tabs
 local Y = X.New({
     Title = "Main"
@@ -334,7 +334,7 @@ local A = w.Label({
 local A = v.Button({
       Text = "Anti Afk",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/RrnxcZGQ"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/sHeaKtEu"))()
 
 end,
     Menu = {
