@@ -89,7 +89,7 @@ local A = Z.Button({
 local A = u.Button({
       Text = "Future Scripts",
     Callback = function()
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Clicker-Simulator-or-Future-Scripts_855"))()
+         loadstring(game:HttpGet("https://rawscripts.net/raw/Clicker-Simulator-or-Future-Scripts_855"))()
 
     end,
     Menu = {
@@ -102,10 +102,10 @@ local A = u.Button({
 })
 
 local A = u.Button({
-      Text = "Clicker V3",
+      Text = "Clicker V4(UPDATED)",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbitw2549/Clicker-Simulator-V2/main/Main"))()
-    end,
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()--loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/MagDevelopments/main/MagHubVerison2"))()
+end,    
     Menu = {
         Information = function(self)
             X.Banner({
@@ -115,6 +115,22 @@ local A = u.Button({
     }
 })
 
+local A = u.Button({
+      Text = "Slightten X",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/slightten/scripts/main/Clicker%20Sim.lua", true))()
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+  
+--RoCitizens
 local A = t.Button({
       Text = "Variety Hub",
     Callback = function()
@@ -298,6 +314,41 @@ end,
         end
     }
 })
+
+local A = a.Button({
+      Text = "DexHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+local A = a.Button({
+      Text = "DarkHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+
+
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+
+
 
 --Shindo Life  
 
