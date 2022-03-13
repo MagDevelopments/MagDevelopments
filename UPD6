@@ -279,7 +279,6 @@ end,
 
 
 
-
 --Arsenal  
 local A = a.Button({
       Text = "MagDevelopments Script",
@@ -326,39 +325,6 @@ end,
         end
     }
 })
-
-local A = a.Button({
-      Text = "DexHub",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
-
-
-end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
-
-local A = a.Button({
-      Text = "DarkHub",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
-
-
-end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
-
 
 
 
@@ -409,34 +375,6 @@ end,
     }
 })
 
-local A = b.Button({
-    Text = "JRL X Lav",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/JRL-lav/Main/main/Shindo%20v3"))()
-        
-end,
-      Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
-
-loacl A = b.Button({
-     Text = "ReavScritps",       
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
-end,
-     Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
 
 --Dunking Simulator
 
