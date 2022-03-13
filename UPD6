@@ -53,6 +53,24 @@ local v = X.New({
 })
 
 --Fields
+local A = Y.Button({
+    Text     = "Most Recent Update",
+    Callback = function()
+        print("Clicked!")
+  
+  end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Displays the most recent update to the exploit"
+            })
+        end
+    }
+})
+
+local A = Y.Label({
+    Text = "3/13/22"
+})
 
 local A = Y.Button({
     Text     = "Open MagHub(Highly Reconmmend)",
@@ -69,6 +87,36 @@ local A = Y.Button({
     }
 })
 
+local A = Y.Button({
+    Text     = "Open MagHub V2(Not Reconmmend)",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/1cg3zyR3"))()  
+ 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "3-4 Game Scrip (Click to Execute)"
+            })
+        end
+    }
+})
+
+
+local A = Y.Button({
+    Text     = "Relaunch Exploit(ONLY IF IT STARTS GLITCHING)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/MagDevelopments/main/UPD6"))()
+ 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click This If you Have any problems with the exploit, (Didn't work? messegs me on Disord @! ! ! ! Mag Developments™#2173"
+            })
+        end
+    }
+})
 
 --Football Fusion
 local A = Z.Button({
@@ -210,7 +258,62 @@ end,
     }
 })
 
-
+local A = s.Button({
+    Text = "KL Hub",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
+ 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+ 
+local A = s.Button({
+    Text = "Nexus Hub",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+end,
+     Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+ 
+local A = s.Button({
+    Text = "xDepression Scirpt",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/KingLegacy.lua"))()
+end,
+     Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+ 
+local A = s.Button({
+    Text = "Hulku Hub",
+   Callback = function()
+       loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/.FreeMAXScript./main/4GAME")()
+end,
+     Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
 
 --Arsenal  
 local A = a.Button({
@@ -259,6 +362,36 @@ end,
     }
 })
 
+local A = a.Button({
+      Text = "DexHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+ 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+ 
+local A = a.Button({
+      Text = "DarkHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+ 
+ 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
 
 
 --Shindo Life  
@@ -308,6 +441,67 @@ end,
     }
 })
 
+local A = a.Button({
+      Text = "DexHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+ 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+ 
+local A = a.Button({
+      Text = "DarkHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+ 
+ 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+ 
+ 
+--Shindo Life
+local A = b.Button({
+    Text = "JRL X Lav",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JRL-lav/Main/main/Shindo%20v3"))()
+ 
+end,
+      Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+ 
+loacl A = b.Button({
+     Text = "ReavScritps",       
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
+end,
+     Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
 
 --Dunking Simulator
 
