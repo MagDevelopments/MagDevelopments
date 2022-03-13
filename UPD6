@@ -193,6 +193,23 @@ end,
     }
 })
 
+
+local A = s.Button({
+    Text = "KL Hub",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
+       
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+
 --Arsenal  
 local A = a.Button({
       Text = "MagDevelopments Script",
