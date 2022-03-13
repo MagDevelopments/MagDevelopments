@@ -58,6 +58,10 @@ local A = Y.Label({
     Text = "3/13/22"    
 })
 
+local A = Y.Label({
+    Text = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"    
+})
+
 local A = Y.Button({
     Text = "Open MagHub(Highly Reconmmend)",
     Callback = function()
