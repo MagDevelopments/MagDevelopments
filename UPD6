@@ -58,15 +58,16 @@ local A = Y.Button({
     Text = "Last Updated"
     Callback = function()
         setclipboard("3/13/2022")
-        
-end,
+       
+  end,
     Menu = {
         Information = function(self)
             X.Banner({
-            Text = "Displays when exploit was last updated(Might Not be 100% all the time cause i forget things)"
+            Text = " Displays when exploit was last updated(Might Not be 100% all the time cause i forget things)"
             })
         end
     }
+})
     
  local A = Y.Label({
     Text = "3/13/2022"
