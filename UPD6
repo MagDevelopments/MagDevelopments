@@ -397,6 +397,20 @@ end,
     }
 })
 
+local A = b.Button({
+    Text = "JRL X Lav",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JRL-lav/Main/main/Shindo%20v3"))()
+        
+end,
+      Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
 
 --Dunking Simulator
 
