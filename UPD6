@@ -53,22 +53,6 @@ local v = X.New({
 })
 
 --Fields
-local A = Y.Button({
-    Text = "Updated: 3/13/22",
-    Callback = function()
-        print("Clicked!")
-  
-  end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Displays the most recent update to the exploit"
-            })
-        end
-    }
-})
-
-
 
 local A = Y.Button({
     Text = "Open MagHub(Highly Reconmmend)",
@@ -344,36 +328,6 @@ end,
     }
 })
 
-local A = a.Button({
-      Text = "DexHub",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
- 
-end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
- 
-local A = a.Button({
-      Text = "DarkHub",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
- 
- 
-end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
 
 
 --Shindo Life  
@@ -423,39 +377,7 @@ end,
     }
 })
 
-local A = a.Button({
-      Text = "DexHub",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
- 
-end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
- 
-local A = a.Button({
-      Text = "DarkHub",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
- 
- 
-end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
- 
- 
---Shindo Life
+
 local A = b.Button({
     Text = "JRL X Lav",
    Callback = function()
@@ -463,20 +385,6 @@ local A = b.Button({
  
 end,
       Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "Click to Execute"
-            })
-        end
-    }
-})
- 
-loacl A = b.Button({
-     Text = "ReavScritps",       
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
-end,
-     Menu = {
         Information = function(self)
             X.Banner({
             Text = "Click to Execute"
