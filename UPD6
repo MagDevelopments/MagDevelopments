@@ -88,6 +88,11 @@ end,
     }
 })
 
+local A = Y.Label({
+    Text = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"    
+})
+
+
 local A = Y.Button({
     Text = "Copy Discord Link",
     Callback = function()
