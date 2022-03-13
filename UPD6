@@ -54,6 +54,10 @@ local v = X.New({
 
 --Fields
 
+local A = Y.Label({
+    Text = "3/13/22"    
+})
+
 local A = Y.Button({
     Text = "Open MagHub(Highly Reconmmend)",
     Callback = function()
@@ -73,6 +77,21 @@ local A = Y.Button({
     Text = "Relaunch Exploit(ONLY IF IT STARTS GLITCHING)",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/MagDevelopments/main/UPD6"))()
+ 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click This If you Have any problems with the exploit, (Didn't work? messegs me on Disord @! ! ! ! Mag Developments™#2173"
+            })
+        end
+    }
+})
+
+local A = Y.Button({
+    Text = "Copy Discord Link",
+    Callback = function()
+       setclipboard("https://discord.gg/gbCKX4PzRk")
  
 end,
     Menu = {
@@ -457,7 +476,7 @@ end,
 --Credits
 
 local A = w.Label({
-    Text = "Made By: Mag Developments"
+    Text = "Made By: Mag Developments™"
 
 })
 
