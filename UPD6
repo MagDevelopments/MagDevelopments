@@ -224,9 +224,9 @@ end,
 })
 
 local A = s.Button({
-    Text = "Nexus Hub",
+    Text = "xDepression Scirpt",
    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/KingLegacy.lua"))()
 end,
      Menu = {
         Information = function(self)
@@ -238,9 +238,9 @@ end,
 })
 
 local A = s.Button({
-    Text = "Nexus Hub",
+    Text = "Hulku Hub",
    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+       loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/.FreeMAXScript./main/4GAME")()
 end,
      Menu = {
         Information = function(self)
