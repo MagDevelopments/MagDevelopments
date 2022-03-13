@@ -57,13 +57,13 @@ local v = X.New({
 local A = Y.Button({
     Text = "Last Updated"
     Callback = function()
-        setclipboard("3/13/2022")
+        print("3/13/2022")
        
   end,
     Menu = {
         Information = function(self)
             X.Banner({
-            Text = " Displays when exploit was last updated(Might Not be 100% all the time cause i forget things)"
+            Text = "Displays when exploit was last updated(Might Not be 100% all the time cause i forget things)"
             })
         end
     }
@@ -123,7 +123,7 @@ local A = Y.Button({
 local A = Y.Button({
     Text     = "(Copy) Discord Link"
     Callback = function()
-        setclipboard("https://discord.gg/gbCKX4PzRk")
+        print("https://discord.gg/gbCKX4PzRk")
   
   end,
     Menu = {
