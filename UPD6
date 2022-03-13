@@ -54,7 +54,7 @@ local v = X.New({
 
 --Fields
 local A = Y.Button({
-    Text     = "Most Recent Update",
+    Text = "Updated: 3/13/22",
     Callback = function()
         print("Clicked!")
   
@@ -68,12 +68,10 @@ local A = Y.Button({
     }
 })
 
-local A = Y.Label({
-    Text = "3/13/22"
-})
+
 
 local A = Y.Button({
-    Text     = "Open MagHub(Highly Reconmmend)",
+    Text = "Open MagHub(Highly Reconmmend)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/1cg3zyR3"))();
   
@@ -88,23 +86,7 @@ local A = Y.Button({
 })
 
 local A = Y.Button({
-    Text     = "Open MagHub V2(Not Reconmmend)",
-    Callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/1cg3zyR3"))()  
- 
-end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "3-4 Game Scrip (Click to Execute)"
-            })
-        end
-    }
-})
-
-
-local A = Y.Button({
-    Text     = "Relaunch Exploit(ONLY IF IT STARTS GLITCHING)",
+    Text = "Relaunch Exploit(ONLY IF IT STARTS GLITCHING)",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/MagDevelopments/main/UPD6"))()
  
