@@ -209,6 +209,48 @@ end,
     }
 })
 
+local A = s.Button({
+    Text = "Nexus Hub",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+end,
+     Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+local A = s.Button({
+    Text = "Nexus Hub",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+end,
+     Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+local A = s.Button({
+    Text = "Nexus Hub",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+end,
+     Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
 
 --Arsenal  
 local A = a.Button({
