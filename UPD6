@@ -328,7 +328,35 @@ end,
     }
 })
 
+local A = a.Button({
+      Text = "DexHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+ 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+ 
+local A = a.Button({
+      Text = "DarkHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
 
 --Shindo Life  
 
