@@ -74,7 +74,7 @@ local A = Y.Button({
 })
 
 local A = Y.Button({
-    Text = "Relaunch Exploit(ONLY IF IT STARTS GLITCHING)",
+    Text = "Relaunch Exploit (ONLY IF IT STARTS GLITCHING)",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/MagDevelopments/main/UPD6"))()
  
@@ -89,7 +89,7 @@ end,
 })
 
 local A = Y.Label({
-    Text = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"    
+    Text = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"    
 })
 
 
