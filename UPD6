@@ -489,7 +489,7 @@ local A = w.Label({
 
 })
 
-local A = Y.Label({
+local A = w.Label({
     Text = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"    
 })
 
@@ -512,7 +512,7 @@ end,
     }
 })
 
-local A = Y.Label({
+local A = v.Label({
     Text = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"    
 })
 
