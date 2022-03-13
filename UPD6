@@ -55,7 +55,27 @@ local v = X.New({
 --Fields
 
 local A = Y.Button({
-    Text     = "Open MagHub",
+    Text = "Last Updated"
+    Callback = function()
+        setclipboard("3/13/2022")
+        
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Displays when exploit was last updated(Might Not be 100% all the time cause i forget things)"
+            })
+        end
+    }
+    
+ local A = Y.Label({
+    Text = "3/13/2022"
+
+})
+
+
+local A = Y.Button({
+    Text     = "Open MagHub(Highly Reconmmend)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/1cg3zyR3"))();
   
@@ -68,6 +88,53 @@ local A = Y.Button({
         end
     }
 })
+
+local A = Y.Button({
+    Text     = "Open MagHub V2(Recommened)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/1cg3zyR3"))();
+  
+  end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "3-4 Game Scrip (Click to Execute)"
+            })
+        end
+    }
+})
+
+local A = Y.Button({
+    Text     = "Relaunch Exploit(ONLY IF IT STARTS GLITCHING)"
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/ObfuscatedByMoonSec_2/main/ProtectionSystem"))()
+  
+  end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click This If you Have any problems with the exploit, (Did't work? messegs me on Disord @! ! ! ! Mag Developments™#2173"
+            })
+        end
+    }
+})
+
+local A = Y.Button({
+    Text     = "(Copy) Discord Link"
+    Callback = function()
+        setclipboard("https://discord.gg/gbCKX4PzRk")
+  
+  end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click This If you Have any problems with the exploit, (Did't work? messegs me on Disord @! ! ! ! Mag Developments™#2173"
+            })
+        end
+    }
+})
+
+
 
 --Football Fusion
 local A = Z.Button({
@@ -404,6 +471,20 @@ local A = b.Button({
         
 end,
       Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Click to Execute"
+            })
+        end
+    }
+})
+
+loacl A = b.Button({
+     Text = "ReavScritps",       
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
+end,
+     Menu = {
         Information = function(self)
             X.Banner({
             Text = "Click to Execute"
