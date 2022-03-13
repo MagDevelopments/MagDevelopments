@@ -69,11 +69,6 @@ local A = Y.Button({
     }
 })
     
- local A = Y.Label({
-    Text = "3/13/2022"
-
-})
-
 
 local A = Y.Button({
     Text     = "Open MagHub(Highly Reconmmend)",
