@@ -58,20 +58,6 @@ local A = Y.Label({
     Text = "3/13/22"    
 })
 
-local A = Y.Button({
-    Text = "Discord UI(More Scripts then this one)"
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/ObfuscatedByMoonSec_2/main/ProtectionSystem2"))()
-end,
-    Menu = {
-        Information = function(self)
-            X.Banner({
-            Text = "The way better version then this onne (Discord UI) (Click to Execute)"
-            })
-        end
-    }
-})
-
     
 local A = Y.Label({
     Text = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"    
@@ -508,7 +494,20 @@ local A = w.Label({
     Text = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"    
 })
 
-
+local A = w.Button({
+      Text = "Discord UI(More Scripts then this one)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/ObfuscatedByMoonSec_2/main/ProtectionSystem2"))()
+    
+end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "Discord UI Version of this but with more scripts (Click to Execute)"
+            })
+        end
+    }
+})
 
 --Settings
 
