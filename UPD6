@@ -44,10 +44,6 @@ local c =  X.New({
     Title = "Dunking Simulator"
 })
 
-local d =  x.New({
-    Title = "Test Test"
-})
-
 local w = X.New({
     Title = "Credits"
 })
