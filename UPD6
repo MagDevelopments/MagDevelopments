@@ -63,7 +63,6 @@ local A = Y.Button({
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/ObfuscatedByMoonSec_2/main/ProtectionSystem2"))()
 end,
-    end,
     Menu = {
         Information = function(self)
             X.Banner({
