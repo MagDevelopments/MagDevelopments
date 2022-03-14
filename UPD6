@@ -517,4 +517,19 @@ local A = v.Label({
 })
 
 
+--2nd Page
+local L = Material.Load({
+    Title          = "More",
+    Style          = 3,
+    SizeX          = 500,
+    SizeY          = 350,
+    Theme          = "Jester",
+    ColorOverrides = {
+    MainFrame      = Color3.fromRGB(235,235,235)
+    }
+})
+
+local a = L.New({
+    Title = "L"
+})
 
