@@ -58,6 +58,22 @@ local A = Y.Label({
     Text = "3/13/22"    
 })
 
+local A = Y.Button({
+    Text = "Discord UI(More Scripts then this one)"
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/ObfuscatedByMoonSec_2/main/ProtectionSystem2"))()
+end,
+    end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+            Text = "The way better version then this onne (Discord UI) (Click to Execute)"
+            })
+        end
+    }
+})
+
+    
 local A = Y.Label({
     Text = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"    
 })
@@ -147,7 +163,7 @@ local A = u.Button({
 local A = u.Button({
       Text = "Clicker V4(UPDATED)",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()--loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/MagDevelopments/main/MagHubVerison2"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
 end,    
     Menu = {
         Information = function(self)
